@@ -1,0 +1,1 @@
+This code is the tutorial from "https://www.theodinproject.com/lessons/ruby-on-rails-flickr-api"
