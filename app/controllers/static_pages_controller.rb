@@ -3,11 +3,7 @@ class StaticPagesController < ApplicationController
   end
   def search
     temp = "/" + search_params[:user_id]
-    if !temp.empty?
-      redirect_to temp
-    else
-      render :index, status: :unprocessable_entity
-    end
+    redirect_to temp
   end
 
   def show
