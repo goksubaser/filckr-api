@@ -1,0 +1,9 @@
+<h1>User Photos</h1>
+
+<ul>
+  <% @photos.each do |photo| %>
+    <li>
+      <%= image_tag photo %>
+    </li>
+  <% end %>
+</ul>
