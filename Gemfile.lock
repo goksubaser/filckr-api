@@ -210,7 +210,7 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
-  flickr (~> 2.0, >= 2.0.2)
+  flickr (~> 2.1)
   importmap-rails
   jbuilder
   puma (~> 5.0)
